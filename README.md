@@ -11,7 +11,7 @@ cost, low transaction delay, and high transaction concurrency. The
 maximum number of validators supported is 21.
 
 ## Performance 
-TPS: 2000+
+TPS: 5000+
 Average block interval: 3s
 
 ## Meta Transaction Function
@@ -54,11 +54,11 @@ validators.
 
 ## System Contract
 The management of the current validators are all done by the system contracts.
-*  Proposal Responsible for managing access to validators and managing validator proposals
+* Proposal Responsible for managing access to validators and managing validator proposals
 and votes.
-● Validators Responsible for ranking management of validators, staking and unstaking
+* Validators Responsible for ranking management of validators, staking and unstaking
 operations, distribution of block rewards, etc..
-● Punish Responsible for punishing operations against active validators who are not working
+* Punish Responsible for punishing operations against active validators who are not working
 properly
 
 Blockchain call system contracts：
